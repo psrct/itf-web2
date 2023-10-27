@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <title>website</title>
+    <script>
+        function setName() {
+            const nameField = document.getElementById("username");
+            const name = (nameField.value);
+            const title = document.getElementById("profile-link");
+            title.innerText = name + " Profile"
+        }
+        function setImage() {
+            const profileImage = document.getElementById("profileImage");
+            const picture = (profileImage.value);
+            const change = document.getElementById("imgs");
+            change.style.backgroundImage = "url(" + picture + ")"
+            
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <div class="parent" id="imgs"></div>
+        <a href="https://itf-it66070191.vercel.app/" id="profile-link"class="profile">SetNameProfile</a href="it">
+        <div class="flex">
+            <p>set profile name</p>
+            <input id="username" type="text">
+            <button onclick="setName()">Set!</button>
+        </div>
+        <div class="flex">
+            <p>set profile picture</p>
+            <input id="profileImage" type="text">
+            <button onclick="setImage()">Set!</button>
+        </div>
+
+        <div class="gallery">
+            <div  id="extend-col" class="image"></div>
+            <div id="extend-row" class="image"></div>
+            <div id="extend-col"class="image"></div>
+            <div class="image"></div>
+            <div id="extend-row" class="image"></div>
+            <div class="image"></div>
+            <div class="image"></div>
+            <div class="image"></div>
+            <div class="image"></div>
+            <div class="image"></div>
+        </div>
+        
+    </main>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    background-image: url(https://marketplace.canva.com/EAE-xnqWvJk/1/0/1600w/canva-retro-smoke-and-round-light-desktop-wallpapers-JLofAI27pCg.jpg);
+}
+main {
+    width: 900px;
+    min-height: 100vh;
+    border: 2px black solid;
+    margin: 0px auto;
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    padding-top: 50px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+#profile-link {
+    font-size: 48px;
+    color: black;
+    text-decoration: none;
+}
+
+#profile-link:hover {
+    color: blue;
+}
+
+.parent {
+    position: relative;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://img.freepik.com/premium-photo/japanese-girl-cherry-blossom-tree-landscape-anime-manga-illustration_691560-7754.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 999999px;
+}
+p {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 20px;
+}
+
+.gallery {
+    padding-top: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
+.gallery .image {
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+#extend-col:nth-child(1) {
+    background-image: url(https://lh3.googleusercontent.com/RUg9YJuY2cPjh5znR5ZLqLJIBrm1CM2JuwCS1XP6g31ZDPa_NR--jR0JAum5qDbl2g5UKgBwM4SHSuyiWqjyd7VhBUI=w640-h400-e365-rj-sc0x00ffffff);
+}
+
+
+#extend-row:nth-child(2) {
+    background-image: url(https://w0.peakpx.com/wallpaper/797/424/HD-wallpaper-solo-leveling-dios-jugador-solo-leveling.jpg);
+}
+
+#extend-col:nth-child(3) {
+    background-image: url(https://w0.peakpx.com/wallpaper/931/919/HD-wallpaper-anime-solo-leveling-sung-jin-woo-thumbnail.jpg);
+}
+
+.gallery .image:nth-child(4) {
+    background-image: url(https://w0.peakpx.com/wallpaper/961/507/HD-wallpaper-sung-jin-woo-solo-leveling-thumbnail.jpg);
+}
+
+#extend-row:nth-child(5) {
+    background-image: url(https://w0.peakpx.com/wallpaper/475/153/HD-wallpaper-solo-leveling-igris-solo-leveling-manhwa-thumbnail.jpg);
+}
+
+.gallery .image:nth-child(6) {
+    background-image: url(https://w0.peakpx.com/wallpaper/246/685/HD-wallpaper-shadow-monarch-solo-levelling-black-purple-thumbnail.jpg);
+}
+
+.gallery .image:nth-child(7) {
+    background-image: url(https://w0.peakpx.com/wallpaper/811/649/HD-wallpaper-solo-leveling-manga-solo-leveling-thumbnail.jpg);
+}
+
+.gallery .image:nth-child(8) {
+    background-image: url(https://w0.peakpx.com/wallpaper/605/341/HD-wallpaper-solo-leveling-black-shadow-solo-leveling-sung-jin-woo-thumbnail.jpg);
+    grid-row: span 2;
+    height: 100%;
+}
+
+.gallery .image:nth-child(9) {
+    background-image: url(https://w0.peakpx.com/wallpaper/280/395/HD-wallpaper-solo-leveling-solo-leveling-manhwa-sung-jin-woo-thumbnail.jpg);
+    grid-row: span 2;
+    height: 100%;
+}
+
+.gallery .image:nth-child(10) {
+    background-image: url(https://w0.peakpx.com/wallpaper/988/145/HD-wallpaper-anime-solo-leveling-cha-hae-in-thumbnail.jpg);
+}
